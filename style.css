@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: url(img/plain-white-background-cnw05vrcsznafb3o.jpg);
+    background-size: cover;
     background-color: white;
 }
 a {
