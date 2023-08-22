@@ -64,6 +64,10 @@ header {
     margin: 0 auto;
     border: #6cadd3 4px solid;
 }
+.image-container1 h3 {
+    text-align: center;
+    color: #6cadd3;
+}
 .image-container2 {
     width: 100%;
     max-width:540px; /* Adjust as needed */
@@ -130,5 +134,14 @@ footer {
 .sold-out-text {
     text-align: center;
     color: red;
+
+}
+
+.produkt_1 h3 {
+    margin-top: 2%;
+
+}
+.produkt_1 h2 {
+    margin-bottom: 10%;
 
 }
