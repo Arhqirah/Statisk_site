@@ -2,11 +2,8 @@ body {
     margin: 0;
     background-color: white;
 }
-img {
-    height: 100%;
-    width: 100%;
-}
 a {
+    color: #6cadd3;
     text-decoration: none;
 }
 
@@ -23,9 +20,115 @@ h3 {
     margin: 0;
 }
 
- .logo {
-    border: solid 5px rgb(108, 173, 211);
+header {
+    background-color: white;
+    color: #6cadd3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px #6cadd3;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #6cadd3;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+ .logos {
+    border: solid 5px #6cadd3;
     border-radius: 1%;
     height: 150px;
     width: 500px;
  }
+
+ .image-container {
+    width: 100%;
+    max-width: 240px; /* Adjust as needed */
+    margin: 0 auto;
+}
+.image-container1 {
+    width: 100%;
+    max-width:340px; /* Adjust as needed */
+    margin: 0 auto;
+    border: #6cadd3 4px solid;
+}
+.image-container2 {
+    width: 100%;
+    max-width:540px; /* Adjust as needed */
+    margin: 0 auto;
+    border: #6cadd3 4px solid;
+}
+.image-container_soldOut picture{
+    opacity: 40%;
+    
+}
+.image-container_soldOut{
+    width: 100%;
+    max-width:340px; /* Adjust as needed */
+    margin: 0 auto;
+    border: #6cadd3 4px solid;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Reset some default button styles */
+button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+/* Center the button */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Set the container height to the viewport height */
+}
+
+/* Style the custom button */
+.custom-button {
+    background-color: #6cadd3; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.frontpage {
+    margin-top: 5%;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    text-align: center;
+    padding: 22px;
+  }
+
+.sold-out-text {
+    text-align: center;
+    color: red;
+
+}
