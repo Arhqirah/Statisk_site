@@ -1,0 +1,13 @@
+.logo {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 15%;
+   margin-bottom: 0;
+   margin-left: 34%;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-top: 2%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(108, 173, 211);
+}

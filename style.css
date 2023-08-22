@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+h2 { 
+    font-size: 3rem;
+    margin: 0;
+}
+h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+ .logo {
+    border: solid 5px rgb(108, 173, 211);
+    border-radius: 1%;
+    height: 150px;
+    width: 500px;
+ }
